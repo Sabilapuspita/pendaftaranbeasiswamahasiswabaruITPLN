@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pendaftaran Beasiswa</title>
+    </head>
+    <body>
+        <br>
+        <img src="LOGO_IT_PLN.png" style="width: 300px;height: 100px;">
+        <br>
+        <br>
+        <fieldset>
+            <center><h1>FORMULIR PENDAFTARAN</h1> 
+            <h2>Beasiswa Mahasiswa Baru ITPLN</h2>
+             </center>
+            </fieldset>
+            <BR></BR>
+            <fieldset>
+                <legend>Data Pribadi</legend>
+                <label for="Nama"> Nama Lengkap :</label>
+                <input type="text" name="nama" id="nama"><br><br>
+                <label for="nim"> Nomor Induk Mahasiswa :</label>
+                <input type="text" name="nim" maxlength="9"><br><br>
+                <label for="gender">Jenis Kelamin :</label>
+                <input type="radio" id="man" name="gender" value="man">Laki-Laki 
+                <input type="radio" id="woman" name="gender" value="woman">Perempuan <br><br>
+                <label for="tanggal">Tanggal Lahir :</label>
+                <input type="date" id="tanggal" name="tanggal"><br><br>
+                <label for="text">Tempat Lahir</label> <br><br>
+                <label for="provinsi">Provinsi :</label> 
+                <input type="text" name="provinsi" id="provinsi"> <br><br>
+                <label for="kota/kab">Kota/Kabupaten :</label> 
+                <input type="text" name="kota/kabupaten" id="kota/kabupaten"> <br><br>
+                Agama : <select name="agama" >
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="katholik">Katholik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                    </select><br><br>
+                Alamat : <br><textarea name="alamat" id="alamat" cols="60" rows="5"></textarea> <br><br>
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password"> <br><br>
+                    <label for="nomor telepon">No.Telp :</label>
+                    <input type="text" name="nomor telepon" id="nomer telepon" maxlength="12"> <br><br>
+            </fieldset> <BR></BR>
+           <fieldset>
+               <legend>Data Orangtua/Wali</legend>
+               <label for="nama">Nama Orangtua/Wali :</label>
+               <input type="text" name="nama" id="nama"> <br><br>
+               <label for="hubungan kekerabatan">Hubungan Kekerabatan :</label>
+               <input type="text" name="hubungan kekerabatan" id="hubungan kekerabatan"> <br><br>
+               <label for="sd/tk">Pendidikan Terakhir :</label>
+               <input type="radio" id="Pendidikan" name="Pendidikan" value="TK/SD">TK/SD 
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="SMP">SMP
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="SMA/SMK">SMA/SMK
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="D1">D1
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="D3">D3 
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="D4">D4
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="S1">S1
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="S2">S2 
+                <input type="radio" id="Pendidikan" name="Pendidikan" value="S3">S3 <br><br>
+                Agama : <select name="agama" >
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="katholik">Katholik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                    <option value="konghucu">Konghucu</option>
+                    </select><br><br>
+                Alamat : <br><textarea name="alamat" id="alamat" cols="60" rows="5"></textarea> <br><br>
+                <label for="email">E-mail :</label>
+                <input type="email" name="email" id="email"> <br><br>
+                <label for="nomor telepon">No.Telp :</label>
+                <input type="text" name="nomor telepon" id="nomer telepon" maxlength="12"> <br><br>
+           </fieldset>
+           <BR></BR>
+           <fieldset>
+               <legend>Upload File</legend>
+               <label for="foto">Upload Pas Foto :</label>
+               <input type="file" id="foto" name="foto"><br><br>
+               <label for="ijazah">Upload ijazah :</label>
+               <input type="file" id="ijazah" name="ijazah"><br><br>
+               <label for="sertifikat">Upload sertifikat penghargaan (jika ada) :</label>
+               <input type="file" id="sertifikat" name="sertifikat"><br><br>
+               
+               
+       
+
+           </fieldset> <BR></BR>
+           <button>Submit</button><br>
+           
+    </body>
+</html>
